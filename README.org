@@ -1,0 +1,19 @@
+* MIT 6.0001
+This repo records my learning process of MIT course: Introduction to Computer Science and Programming in Python Fall 2016.
+
+** Setup
+*** Virtual environment and packages
+#+BEGIN_SRC sh
+mkvirtualenv mit6.0001
+pip install -r requirements.txt
+#+END_SRC
+
+*** Matplotlib settings
+#+BEGIN_SRC sh
+cp matplotlibrc ~/.matplotlib/
+#+END_SRC
+
+*** Ensure working environment
+#+BEGIN_SRC sh
+python pkgtest.py
+#+END_SRC
